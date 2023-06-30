@@ -1,0 +1,45 @@
+.App {
+  
+  text-align: center;
+}
+#input {
+  width: 350px;
+  height: 40px;
+  margin-top: 40px;
+  margin-right: 10px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+#input::placeholder{
+  padding-left: 15px;
+}
+#input:hover{
+border: 2px solid teal;
+}
+#btn:hover{
+  background-color: teal;
+}
+#btn {
+  width: 150px;
+  height: 40px;
+ 
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+ 
+  font-weight: 600;
+  font-size: large;
+  border-radius: 10px;
+}
+.container {
+  column-count: 3; 
+  padding: 10px 12px;
+  gap: 10px;
+  border: 1px solid black;
+  height: auto;
+  margin: 10px;
+}
+.container.pictures {
+  margin: 10px;
+  cursor: pointer;
+}
